@@ -7,3 +7,6 @@ Answer: 1) Within a Github action that runs whenever code is pushed. From the pa
 
 2) No
 
+3) No because the message feature is complicated and involves many components interacting with each other such as write, sending and receiving messages. Therefore, one of the cons of unit testing is that it cannot test how individual components interact with each other on an application/feature level.
+
+4) Yes because we are checking to see if more than 80 characters have been written which is a small scale check without many moving parts. It is simple to do a unit test to see if a function will return the correct value.
